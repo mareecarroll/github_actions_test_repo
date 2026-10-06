@@ -1,6 +1,6 @@
 # your code
-def greet(prefix, name):
+def greet(name, prefix):
     print(prefix + " " + name)
 
-# user's code
+# user's code: no immediate error, broken behavior
 greet("hello", "world")
